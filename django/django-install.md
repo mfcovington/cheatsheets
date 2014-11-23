@@ -1,4 +1,4 @@
-# Installing Django in a virtual environment
+# Install Django in a virtual environment
 
 ## Install and configure `virtualenvwrapper`
 
