@@ -9,6 +9,7 @@ Contents:
 - [Create admin account](#create-admin-account)
 - [Run development server](#Run-development-server)
 
+mkdir $PROJECT_DIR
 ## Create a project
 
 If Django is installed properly, `django-admin.py` will be in your `PATH`.
