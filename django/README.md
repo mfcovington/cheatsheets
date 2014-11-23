@@ -1,4 +1,4 @@
-# Django-related cheatsheets
+# Django
 
 Unless otherwise noted, these notes are for Django v1.7.x and may or may not work for other versions.
 
