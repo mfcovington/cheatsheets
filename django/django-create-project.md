@@ -9,7 +9,32 @@ Contents:
 - [Create admin account](#create-admin-account)
 - [Run development server](#Run-development-server)
 
+Quick start:
+
+```sh
+PROJECT_NAME=new_django_project       # change this!
+PROJECT_DIR=new_django_project_dir    # change this!
+
 mkdir $PROJECT_DIR
+cd $PROJECT_DIR
+
+# Create a project
+django-admin.py startproject $PROJECT_NAME
+
+# Customize project settings
+cd $PROJECT_NAME
+perl -pi -e "s|TIME_ZONE = 'UTC'|TIME_ZONE = 'America/Los_Angeles'|" $PROJECT_NAME/settings.py
+
+# Create default database tables
+./manage.py migrate
+
+# Create admin account
+./manage.py createsuperuser
+
+# Run the development server (then open http://127.0.0.1:8000 in a web browser)
+# ./manage.py runserver
+```
+
 ## Create a project
 
 If Django is installed properly, `django-admin.py` will be in your `PATH`.
