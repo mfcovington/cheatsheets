@@ -3,7 +3,7 @@
 Contents:
 
 - [Install and configure `virtualenvwrapper`](#install-and-configure-virtualenvwrapper)
-- [Install Django in a virtual environment](#install-django-in-a-virtual-environment)
+- [Install Django](#install-django)
 - [Other `virtualenvwrapper` commands](#other-virtualenvwrapper-commands)
 
 ## Install and configure `virtualenvwrapper`
@@ -22,7 +22,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 source ~/.bash_profile
 ```
 
-## Install Django in a virtual environment
+## Install Django
 
 Change `ENV_NAME`, below, to whatever you want to call your new virtual environment. If you want to use Python 2 in your virtual environment, remove the ``-p `which python3` `` portion.
 
